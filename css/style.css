@@ -1,0 +1,94 @@
+/* CSS file for week 6 */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* This is the start of my CSS code */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px; /* makes the math easier with ems and rems */
+    color:aqua;
+    background: black;
+}
+h2{
+    font-size: 3.2rem; /* 32px - based on the root size of 10px set in the html */
+}
+p{ 
+    font-size: 1.6rem; /* 16px - based on the root size of 10px */
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* MAIN */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* style the element witht eh ID container */
+#container{
+    width: 1024px;
+    margin: 0 auto; /* 0 on the top and bottom, and  "auto" and the left and right
+    this will centre the page to the window */
+}
+
+section{
+    margin: 15px; /* margin is on the outside of the section and pushes other elements away */
+    border: 2px solid aqua;
+    padding:20px 10px 15px 25px; /* padding is on the inside and pushes content away from the edge */
+    /* when you use four values in padding or margin, its top, right,bottom, left */
+
+    /* you can style individually padding, margin (and even border) on each side of thr element:
+    padding-top
+    padding-bottom
+    padding-left
+    padding-right */
+}
+
+/* style the element witht the class header-imaage  */
+.header-image{
+    width:100%; /* 100% of the width of whatever element this image is inside of */
+}
